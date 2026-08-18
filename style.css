@@ -1436,11 +1436,14 @@ a {
     margin-top: 40px;
 }
 
-.story-signature-line {
-    width: 45px;
-    height: 2px;
-    background: #e03b31;
+.story-headshot {
+    width: 64px;
+    height: 64px;
     flex-shrink: 0;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #eeeeee;
 }
 
 .story-signature strong {
